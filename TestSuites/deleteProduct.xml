@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Delete Product">
+    <listeners>
+        <listener class-name="company.test_components.Listeners"/>
+    </listeners>
+
+    <test thread-count="3" name="Delete Product From Cart">
+        <classes>
+            <class name="company.tests.DeleteProductFromCartTest"/>
+        </classes>
+    </test>
+</suite>
