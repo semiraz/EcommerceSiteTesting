@@ -28,30 +28,30 @@ Test Cases for E2E Testing: Submit the order, Delete the order, etc.
 To run tests, run the following command
 
 ```bash
-   mvn test -Dbrowser=chrome
+mvn test -Dbrowser=chrome
 ```
 ```bash
-   mvn test -Dbrowser=firefox
+mvn test -Dbrowser=firefox
 ```
 To run tests using headless browser use: 
 ```bash
-   mvn test -Dbrowser=chromeheadless
-   ```
+mvn test -Dbrowser=chromeheadless
+```
 
 To run test suites use: 
 ```bash
-   mvn test -PErrorValidation
+mvn test -PErrorValidation
 ```
 ```bash
-   mvn test -PPurchase
+mvn test -PPurchase
 ```
 ```bash
-   mvn test -PDeleteProduct
+mvn test -PDeleteProduct
 ```
 To run Java Cucumber framework use: 
 ```bash
-   mvn test -PCucumberTests
-   ```
+mvn test -PCucumberTests
+```
 
 
 ## Status
