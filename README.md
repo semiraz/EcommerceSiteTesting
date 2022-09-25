@@ -8,8 +8,13 @@ Test automation suite for “Let’s Shop” web application written with
 Selenium-TestNG framework in Java using Maven. On top of the existing framework, 
 I had incorporated and brought Cucumber into this framework. 
 “Let’s Shop” web app is dummy website for learning test automation. 
-Contains all basic flows of a e-commerce website. 
+Contains all basic flows of an e-commerce website. 
 Test Cases for E2E Testing: Submit the order, Delete the order, etc. 
+
+
+Also, created and automated extent reports logs(in src/main/java/resources package).
+Created Listeners class which is implementing ITestListener -listener for test running. It captures screenshots
+for failed cases and attach them to the extent report.
 
 
 ## Environment
